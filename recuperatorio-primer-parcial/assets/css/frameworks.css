@@ -1,14 +1,17 @@
+/* Aplica fondo azul Bootstrap para header, footer y navbar */
 header,
 footer,
 .navbar {
   background-color: #0d6efd;
 }
 
-.nav-link:hover {
-  background-color: #084274;
-  color: #ffffff;
+
+.navbar .nav-link:hover {
+  color: #084298 !important;
+  background-color: transparent; 
 }
 
+/* Títulos h2 y h3 con color azul Bootstrap */
 h2,
 h3 {
   color: #0d6efd;
